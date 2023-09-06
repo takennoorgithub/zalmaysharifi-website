@@ -1,0 +1,180 @@
+body{
+
+user-select: none;
+
+
+}
+
+#container{
+width: 1024px;
+margin: 0 auto;
+border: 1px solid black;
+padding: 10px;
+
+
+}
+
+
+@media screen and (max-width: 1024px){
+
+#container{
+width: 900px;
+}
+
+}
+@meida screen and (max-width: 900px){
+
+#container{
+width: 700px;
+}
+
+}
+
+@media screen and (max-width: 700px){
+
+#container{
+width: 480px;
+
+}
+
+}
+@media screen and (max-width: 480px){
+
+#container{
+width: 320px;
+}
+
+
+}
+h1{
+font-size: 1.5rem;
+
+}
+
+
+#content{
+width: 800px;
+text-align: justify;
+float: left;
+padding-top: 10px;
+padding-right: 10px;
+
+
+}
+
+
+@media screen and (max-width: 1024px){
+
+#content{
+
+width: 100%;
+
+}
+
+
+}
+
+#top-bar{
+background-color: darkblue;
+color: white;
+text-align: center;
+padding: 10px;
+
+}
+#menu-bar{
+background-color: tomato;
+
+
+}
+#menu-bar ul{
+list-style: none;
+margin: 0;
+padding: 10px;
+
+
+}
+
+
+
+#menu-bar ul li{
+display: inline-block;
+
+}
+@media screen and (max-width: 480px){
+
+    #menu-bar ul li{
+    display: block;
+    text-align: center;
+    font-size: large;
+    
+    }
+    
+    }
+
+
+
+#menu-bar ul li a{
+display: block;
+padding: 15px;
+text-decoration: none;
+color: white;
+
+}
+#side-bar{
+float: right;
+background-color: lightblue;
+height: 400px;
+width: 150px;
+
+
+}
+#side-bar ul{
+list-style: none;
+padding: 5px 10px 5px 5px;
+
+}
+#side-bar ul li a{
+text-decoration: none;
+display: block;
+padding: 10px;
+color: black;
+text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+
+    #side-bar{
+    
+    width: 100%;
+    
+    }
+    
+    
+    }
+
+#footer{
+clear: both;
+padding: 10px;
+background-color: tomato;
+color: white;
+text-align: center;
+
+}
+#menu-bar ul li a:hover{
+background-color: darkblue;
+color: white;
+
+
+}
+
+#side-bar ul li a:hover{
+    background-color: tomato;
+    color: black;
+    transform: scale(1.4);
+    }
+.mr{
+
+margin-right: 10px;
+
+
+}
